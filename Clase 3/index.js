@@ -127,7 +127,7 @@ switch(edad){
     break;
 } */
 
-let entrada = prompt("Ingresar un nombre");
+/* let entrada = prompt("Ingresar un nombre");
 //Repetimos hasta que se ingresa "ESC"
 while (entrada != "ESC") {
   switch (entrada) {
@@ -148,4 +148,13 @@ while (entrada != "ESC") {
   var nombre = "andres"
 }
 
-console.log(nombre);
+console.log(nombre); */
+
+let lista = ["ana", "camila", "asdfas", "asdfasdf"];
+
+for (let index = 0; index < 2; index++) {
+  while(disponibilidad != "disponible"){
+    console.log("espere");
+  }
+  
+}
