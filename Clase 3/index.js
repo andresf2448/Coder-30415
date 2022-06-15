@@ -60,8 +60,8 @@ while(repetir){
   repetir = false;
 } */
 
-/* let usuario = prompt("Ingrese el usuario");
-let intento = 0;
+let usuario = prompt("Ingrese el usuario");
+let intento = 1;
 
 while(usuario != "camila"){
   alert("Usuario incorrecto");
@@ -70,7 +70,7 @@ while(usuario != "camila"){
     break;
   }
 
-  intento++;
+  intento = intento + 1; //intento++      intento += 1
   usuario = prompt("Ingrese el usuario");
 }
 
@@ -78,7 +78,7 @@ if(intento === 3){
   alert("Estas bloqueado");
 }else{
   alert("Genial ingresaste!");
-} */
+}
 
 /* let repetir = false;
 
