@@ -117,14 +117,14 @@ const mensaje = nombre => `hola ${nombre}`;
 console.log(suma(3, 4));
 console.log(mensaje("andres")); */
 
-const suma = (a,b) => a + b;
+/* const suma = (a,b) => a + b;
 const resta = (a,b) => a - b;
 const iva = x => x * 0.21;
 
 let precioProducto = 1000;
 let descuento = 300;
 
-let resultado = resta(suma(precioProducto, iva(precioProducto)), descuento);
+let resultado = resta(suma(precioProducto, iva(precioProducto)), descuento); */
 
 /* resultado = resta(suma(precioProducto, iva(precioProducto)), descuento)
           = resta(suma(precioProducto, iva(1000)), descuento)
@@ -134,4 +134,19 @@ let resultado = resta(suma(precioProducto, iva(precioProducto)), descuento);
           = resta(1000 + 1000 * 0.21, 300)
           = 1000 + 1000 * 0.21 - 300 */
 
-console.log(resultado);
+/* console.log(resultado); */
+
+/* function valorDescuento(precio, iva) {
+  console.log(precio - (precio * iva));
+}
+
+console.log(undefined); */
+
+const stock = (x,y) => x-y;
+
+let stockInicial= 10;
+let stockFinal = 3;
+
+let mercaderiaVendida = stock(stockInicial,stockFinal);
+
+console.log(mercaderiaVendida);
