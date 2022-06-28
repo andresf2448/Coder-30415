@@ -191,3 +191,16 @@ for (let index = 0; index < 10; index++) {
 
   productos.push({ nombre: nombre, precio: precio });
 } */
+
+const productos = [
+  {nombre: "zapato", precio: 1000},
+  {nombre: "media", precio: 100},
+  {nombre: "gorra", precio: 700},
+  {nombre: "camisa", precio: 1500},  
+  {nombre: "camisa grande", precio: 1800},  
+];
+
+let filtro = prompt("Ingrese el nombre del producto");
+
+let filtrados = productos.filter(elemento => elemento.nombre.includes(filtro));
+console.log(filtrados);
