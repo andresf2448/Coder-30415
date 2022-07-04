@@ -93,7 +93,7 @@ for(const producto of productos){
 console.log(contenedor); */
 
 let productos = [
-  {id: 1, nombre: "camisa", precio: 1001},
+  {id: 1, nombre: "camisa", precio: 1001, img: "asdfasdf"},
   {id: 2, nombre: "zapato", precio: 1020},
   {id: 3, nombre: "media", precio: 1500},
   {id: 4, nombre: "gorra", precio: 2000},
@@ -107,9 +107,10 @@ let filtrados = productos.filter(elemento => elemento.precio > filtro);
 
 for(const producto of filtrados){
   let item = document.createElement("div");
-  item.innerHTML = `<h2>Id: ${producto.id}</h2>
+  item.innerHTML = `<h2 id="pepito">Id: ${producto.id}</h2>
                     <p>Producto: ${producto.nombre}</p>
-                    <b>Precio: ${producto.precio}</b>`;
+                    <b>Precio: ${producto.precio}</b>
+                    <img src="${producto.img}">`;
 
   container.append(item);
 }
