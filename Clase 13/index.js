@@ -83,10 +83,10 @@ function s(){
 
 s(); */
 
-/* new Promise((resolve, reject) => {
+new Promise((resolve, reject) => {
   //cuerpo promesa
   resolve
-}) */
+})
 
 const eventoFuturo = (value) => {
   return new Promise( (resolve, reject) => {
